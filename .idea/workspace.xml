@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f6df50-4719-4263-9ef7-1d6a83203028" name="Changes" comment="add a store and read function to store extracted data in a txt file">
+    <list default="true" id="b4f6df50-4719-4263-9ef7-1d6a83203028" name="Changes" comment="implemented send email function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +115,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724948227181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implemented send email function">
+      <option name="closed" value="true" />
+      <created>1724949285957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724949285957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="add extract functon and .yaml file" />
     <MESSAGE value="add a store and read function to store extracted data in a txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a store and read function to store extracted data in a txt file" />
+    <MESSAGE value="implemented send email function" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented send email function" />
   </component>
 </project>
