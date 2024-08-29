@@ -15,6 +15,13 @@ def scrape(url):
     return text
 
 
+def extract(text):
+    extractor = selectorlib.Extractor.from_yaml_file("extract.yaml")
+    value = extractor.extract(text)["tours"]
+    return value
+
+
 if __name__ == "__main__":
-    print(scrape(URL))
+    scraped = scrape(URL)
+    print(extract(scraped))
 
